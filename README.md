@@ -7,5 +7,6 @@
 * сделать форму обратной связи
 
 ### Ссылка на GitPages
+https://timurisrafilov.github.io/where-to-travel/
 
 
