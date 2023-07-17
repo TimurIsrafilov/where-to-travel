@@ -1,0 +1,16 @@
+.header__claim {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.07;
+  list-style: none;
+  color: hsl(0deg 0% 0%);
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.header__claim:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}

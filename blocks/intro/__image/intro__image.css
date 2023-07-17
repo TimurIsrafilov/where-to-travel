@@ -1,0 +1,29 @@
+.intro__image {
+  max-width: 356px;
+  max-height: 356px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  padding: 0;
+  margin: 0 0 0 126px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1128px) {
+  .intro__image {
+    margin: 0 0 0 calc(10%);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .intro__image {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .intro__image {
+    display:none;
+  }
+}

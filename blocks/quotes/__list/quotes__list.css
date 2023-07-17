@@ -1,0 +1,28 @@
+.quotes__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  row-gap: 48px;
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1128px) {
+  .quotes__list {
+    grid-template-columns: repeat(2, minmax(230px, 1fr));
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .quotes__list {
+    justify-items:center;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .quotes__list {
+    grid-template-columns: repeat(1, minmax(230px, 1fr));
+    row-gap: 32px;
+  }
+}

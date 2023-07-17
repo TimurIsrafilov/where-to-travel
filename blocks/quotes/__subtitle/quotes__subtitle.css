@@ -1,0 +1,30 @@
+.quotes__subtitle {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  align-self: flex-start;
+  padding: 0;
+  margin: 8px 0 0 0;
+  text-transform: uppercase;
+  color: hsl(26deg 98% 83%);
+  margin-bottom: 36px;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 984px) {
+  .quotes__subtitle {
+    padding: 0 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .quotes__subtitle {
+    text-align:center;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .quotes__subtitle {
+    padding: 0 0 0 16px;
+  }
+}

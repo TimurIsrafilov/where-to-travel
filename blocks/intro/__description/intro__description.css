@@ -1,0 +1,29 @@
+.intro__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-self: center;
+  padding: 0 35px 0 70px;
+}
+
+@media screen and (max-width: 728px) {
+  .intro__description {
+    padding: 30% 15% 30% 15%;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .intro__description::before {
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url(./../../../images/intro-image.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+}

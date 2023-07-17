@@ -1,0 +1,25 @@
+.quotes__title {
+  font-size: 32px;
+  font-weight: 700;
+  max-width: 400px;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.6px;
+  line-height: 1.3;
+  margin-bottom: 118px;
+}
+
+@media screen and (max-width: 528px) {
+  .quotes__title {
+    font-size: 24px;
+    margin: 0 0 70px 0;
+
+  }
+}
+
+@media screen and(max-width: 728px) {
+  .quotes__title{
+    text-align:center;
+    max-width: 100%;
+  }
+}

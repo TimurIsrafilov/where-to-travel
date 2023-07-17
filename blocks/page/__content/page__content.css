@@ -1,0 +1,11 @@
+.page__content {
+  margin-top: 86px;
+  margin-bottom: 56px;
+}
+
+@media screen and (max-width: 568px) {
+  .page__content {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+}

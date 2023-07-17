@@ -1,0 +1,19 @@
+.places__place {
+  max-width: 1280px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 640px));
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 984px) {
+  .places__place {
+    grid-template-columns: repeat(2, minmax(320px, 492px));
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .places__place {
+    grid-template-columns: minmax(320px, 728px);
+  }
+}
